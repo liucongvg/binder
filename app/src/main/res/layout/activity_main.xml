@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liucong.binder.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="bind"
+        android:text="@string/bindservice"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="unbind"
+        android:text="@string/unbindservice"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="kill"
+        android:text="@string/killservice"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="server_call_client"
+        android:text="@string/server_call_client"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:onClick="start_service2"
+        android:text="@string/start_service2"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:onClick="stop_service2"
+        android:text="@string/stop_service2"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:onClick="send_broadcast"
+        android:text="@string/send_broadcast"/>
+</android.widget.LinearLayout>

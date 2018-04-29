@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Binder</string>
+    <string name="unbindservice">unbindservice</string>
+    <string name="bindservice">bindservice</string>
+    <string name="killservice">killservice</string>
+    <string name="server_call_client">server_call_client</string>
+    <string name="start_service2">start_service2</string>
+    <string name="stop_service2">stop_service2</string>
+    <string name="send_broadcast">send_broadcast</string>
+</resources>
